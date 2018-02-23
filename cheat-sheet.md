@@ -46,3 +46,23 @@ Binary | Decimal | Instruction
  ## Relative addressing
 
 TBD
+
+## Commodore 64 color codes
+Decimal | Hex | Color
+--------|-----|------
+0 | 00 | Black
+1 | 01 | White
+2 | 02 | Red
+3 | 03 | Cyan
+4 | 04 | Purple
+5 | 05 | Green
+6 | 06 | Blue
+7 | 07 | Yellow
+8 | 08 | Orange
+9 | 09 | Brown
+10 | 0A | Pink
+11 | 0B | Dark grey
+12 | 0C | Grey
+13 | 0D | Light green
+14 | 0E | Light blue
+15 | 0F | Light grey
