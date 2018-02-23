@@ -33,6 +33,11 @@ x64 <target_file>.prg
 
 Starting the program on the C64 type in following command:
 ```
+SYS <memory_location_where_the_program_should_start_in_decimal>
+```
+
+For example when using instruction *org $1000* the 1000 is a hex number that converts into 4096 decimal. Point the C64 system here:
+```
 SYS 4096
 ```
 
