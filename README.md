@@ -9,6 +9,8 @@
 
 ### Windows
 
+Note: Powershell won't work with dasm! Use cmd instead!
+
 #### Environment variables
 
 Set following environment variables for ease of use to Windows path:
