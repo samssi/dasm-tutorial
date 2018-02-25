@@ -14,4 +14,4 @@ loop:
     jmp loop
 
     org $2000 ; Load sprite into memory at $2000
-    incbin "sprite.spd" ; Include sprite data sheet
+    incbin "mysprite.spd" ; Include sprite data sheet
