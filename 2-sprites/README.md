@@ -26,11 +26,12 @@ $d015 is the memory location for these switches.
 
 ## Write sprites into memory
 
+TBD
 ## Learned
 
 Instruction | Description
 --------------|------------------
-lda #%0000001 | binary assignment
+lda #%0000001 | Binary assignment
 
 Memory address | Description
 --------------|------------------
