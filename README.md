@@ -44,3 +44,10 @@ SYS 4096
 ```
 
 Close the emulator when done!
+
+## Sources
+
+* https://github.com/petriw/Commodore64Programming PetriW, Commodore 64 Programming on Windows
+* http://sta.c64.org/ The Joe Forster/STA homepage
+    * http://sta.c64.org/cbm64mem.html Commodore 64 memory map
+* http://www.spritemate.com/ Online sprite creator for Commodore 64
