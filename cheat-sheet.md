@@ -21,7 +21,8 @@ Instruction | Function | Example
 ------------|----------|--------
 processor <processor_model> | Tell the assembler which processor to compile for
 org $<memory_location_in_hex> | Memory location for the program to start
-ldx, ldy, lda $<hex-value> | Store hex-value 04 to register x as a byte
+ldx, ldy, lda $<hex-value> | Store hex-value 04 to a register as a byte
+ldx, ldy, lda #%<binary-value> | Store binary value to register eg. #%0000001 as a byte
 main: | Instuction labeled main. It can be named freely as you want
 jmp <instuction_to_jump_to> | Jump to the instuction labeled here
 sta, stx, sty | Move the byte into memory from register | sta $d020
@@ -29,13 +30,13 @@ lda, ldx, ldy | Store the byte into register | lda #$20
 asl | Instruction to shift bit to left
 lsr | Instruction to shift bit to right
 
-
 ## Memory addresses
 
 Address | Function
 --------|---------
 $d020 | Background color
 $d021 | Foreground color
+$d015 | Sprite enable register. Memory location of the sprites visibility
  
  ## Bit shifting example
 
